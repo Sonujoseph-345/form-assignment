@@ -2,6 +2,7 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: "Roboto", sans-serif;
 }
 .container-fluid {
     height: 100vh;
@@ -29,14 +30,19 @@ input[type="radio"] {
 }
 h1 {
     background-color: rgba(163, 233, 233, 0.5);
+    font-family: "Comfortaa", cursive;
+    font-weight: 600;
+    letter-spacing: 1;
 }
-label::after {
+.optional::after {
     content: " *";
     color: #ec0a0a;
 }
 span {
     color: #ec0a0a;
+    font-family: "Comfortaa", cursive;
 }
+
 @media screen and (max-width: 576px) {
     .ad {
         height: fit-content !important;
